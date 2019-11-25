@@ -1,0 +1,20 @@
+{
+  "SITE_DESCRIPTION": {
+    "fr": "Discussions et informations sportives en France, NextMatches.com le réseau social des fans de sport.",
+    "US": "Discussions and sports information in United States, NextMatches.com the social network of sports fans in USA.",
+    "it": "Discussioni e informazioni sportive in Italia, NextMatches.com il social network degli appassionati di sport.",
+    "es": "Debates e información deportiva en España, NextMatches.com la red social de fanáticos del deporte.",
+    "en": "Discussions and sports information in United Kingdom, NextMatches.com the social network of sports fans in UK.",
+    "pt": "Discussões e informações esportivas na Portugal, NextMatches.com a rede social de fãs de esportes.",
+    "de": "Diskussionen und Sportinformationen in Deutschland, NextMatches.com das soziale Netzwerk der Sportfans."
+  },
+  "SITE_TITLE": {
+    "fr": "NextMatches France",
+    "en": "NextMatches United Kingdom",
+    "US": "NextMatches United States",
+    "it": "NextMatches Italia",
+    "pt": "NextMatches Portugal",
+    "es": "NextMatches España",
+    "de": "NextMatches Deutschland"
+  }
+}

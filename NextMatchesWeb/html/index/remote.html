@@ -1,0 +1,7 @@
+#if($active=='answered')
+<a class="button" href="/">$svg.fa_icon_feed<span>&nbsp;NextMatches</span></a>
+<txt><em>$svg.mi_call_split<span>#lang('COMMENTED')</span></em></txt>
+#else
+<txt><em>$svg.fa_icon_feed<span>&nbsp;NextMatches</span></em></txt>
+<a class="button" href="/answered">$svg.mi_call_split<span>#lang('COMMENTED')</span></a>
+#end

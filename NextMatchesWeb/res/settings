@@ -7,7 +7,7 @@ LOGO_TITLE=<sup>NEXT</sup>MATCHES
 UI_LOGO=/ui/redblue
 
 
-REPO=/data/repo/PageBase/sites/nextmatches
+REPO=/data/repo/NextMatches
 
 STANDARD_HOST=nextmatches.com
 HOST_API=api.nextmatches.com

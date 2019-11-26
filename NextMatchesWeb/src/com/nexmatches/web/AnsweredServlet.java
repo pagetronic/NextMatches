@@ -9,7 +9,7 @@ import live.page.web.content.posts.utils.ThreadsAggregator;
 import live.page.web.system.servlet.HttpServlet;
 import live.page.web.system.servlet.wrapper.WebServletRequest;
 import live.page.web.system.servlet.wrapper.WebServletResponse;
-import live.page.web.utils.Settings;
+import live.page.web.system.Settings;
 
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;

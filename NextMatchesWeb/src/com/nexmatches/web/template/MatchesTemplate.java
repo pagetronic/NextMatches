@@ -3,7 +3,7 @@
  */
 package com.nexmatches.web.template;
 
-import live.page.web.template.BaseTemplate;
+import live.page.web.system.cosmetic.tmpl.BaseTemplate;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;

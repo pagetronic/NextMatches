@@ -14,6 +14,7 @@
         <relativePath>../../NextMatches</relativePath>
     </parent>
     <build>
+        <defaultGoal>install</defaultGoal>
         <sourceDirectory>src</sourceDirectory>
         <finalName>nextmatches-croner</finalName>
         <resources>

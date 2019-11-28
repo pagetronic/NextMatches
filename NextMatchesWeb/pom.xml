@@ -16,6 +16,7 @@
     </parent>
 
     <build>
+        <defaultGoal>install</defaultGoal>
         <finalName>ROOT</finalName>
         <sourceDirectory>src</sourceDirectory>
         <resources>

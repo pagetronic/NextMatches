@@ -22,4 +22,7 @@
         <module>NextMatchesWeb</module>
         <module>NextMatchesCroner</module>
     </modules>
+    <build>
+        <defaultGoal>install</defaultGoal>
+    </build>
 </project>

@@ -30,11 +30,11 @@ public class CatchAll extends BaseServlet {
 		}
 
 
-		if (req.getRequestURI().matches("^.*?/([A-Z0-9]{" + Db.DB_KEY_LENGTH + "})$")) {
+		if (req.getRequestURI().startsWith("/threads") || req.getRequestURI().matches("^.*?/([A-Z0-9]{" + Db.DB_KEY_LENGTH + "})$")) {
 			req.getRequestDispatcher("/threads").forward(req, resp);
 		}
 
-		if (Db.exists("Forums", Filters.and(
+		if (req.getRequestURI().startsWith("/forums") || Db.exists("Forums", Filters.and(
 				Filters.eq("url", req.getRequestURI().replaceAll("^/([^/.]+).*", "$1")),
 				Filters.eq("lng", req.getLng())
 		))) {

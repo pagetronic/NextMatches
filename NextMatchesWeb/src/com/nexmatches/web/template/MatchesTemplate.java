@@ -5,12 +5,14 @@ package com.nexmatches.web.template;
 
 import live.page.web.system.cosmetic.tmpl.BaseTemplate;
 
-import javax.servlet.ServletContextEvent;
-import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
 @WebListener
-public class MatchesTemplate extends BaseTemplate implements ServletContextListener {
+public class MatchesTemplate extends BaseTemplate {
+
+	public MatchesTemplate() {
+		setTemplate(this);
+	}
 
 	@Override
 	public Class[] getUserDirective() {
@@ -22,15 +24,4 @@ public class MatchesTemplate extends BaseTemplate implements ServletContextListe
 		return FxTemplate.class;
 	}
 
-	@Override
-	public void contextInitialized(ServletContextEvent sce) {
-
-		setTemplate(new MatchesTemplate());
-
-	}
-
-	@Override
-	public void contextDestroyed(ServletContextEvent sce) {
-
-	}
 }

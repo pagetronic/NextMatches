@@ -120,7 +120,7 @@ public class Scrapper {
 			}
 
 			thread.put("lng", lng);
-			//thread.put("index", true);
+			thread.put("index", true);
 			Db.save("Posts", thread);
 
 			thread = ThreadsAggregator.getSimplePost(thread.getId());

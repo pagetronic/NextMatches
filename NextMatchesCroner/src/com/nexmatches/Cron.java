@@ -3,13 +3,13 @@
  */
 package com.nexmatches;
 
-import live.page.web.admin.utils.Scrapper;
+import com.nexmatches.utils.ScrapperCron;
 import live.page.notice.Notices;
 
 public class Cron {
 
 	public static void main(String[] args) {
-		Scrapper.scrap();
+		ScrapperCron.scrap();
 		Notices.cron();
 	}
 }

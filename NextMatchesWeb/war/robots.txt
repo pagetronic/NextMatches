@@ -8,3 +8,5 @@ Disallow: /users
 
 User-agent: ia_archiver
 Disallow: /
+
+Sitemap: /sitemap.xml

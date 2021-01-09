@@ -23,7 +23,7 @@ public class RedirectFilter implements Filter {
 			host = "127.0.0.1";
 		}
 
-		if (host.equals("en.renseigner.com")) {
+		if (host.equals("en.nextmatches.com")) {
 			ServletUtils.redirect301("https://uk.nextmatches.com" + requestURI, resp);
 			return;
 		}

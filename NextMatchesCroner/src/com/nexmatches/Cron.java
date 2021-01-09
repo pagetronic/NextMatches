@@ -3,7 +3,7 @@
  */
 package com.nexmatches;
 
-import com.nexmatches.utils.ScrapperCron;
+import live.page.scrap.ScrapperCron;
 import live.page.notice.Notices;
 
 public class Cron {
